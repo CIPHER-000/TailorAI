@@ -38,7 +38,6 @@ These agents collaborate as a **Crew**, each assigned a specific `Task` that con
 
     ```bash
     git clone <https://github.com/CIPHER-000/TailorAI.git>
-    cd tailorAI
 
 
 2. **Install dependencies manually**
