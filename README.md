@@ -37,7 +37,7 @@ These agents collaborate as a **Crew**, each assigned a specific `Task` that con
 1. **Clone the Repository**
 
     ```bash
-    git clone <your-repo-url>
+    git clone <https://github.com/CIPHER-000/TailorAI.git>
     cd tailorAI
 
 
