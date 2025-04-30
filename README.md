@@ -41,28 +41,31 @@ These agents collaborate as a **Crew**, each assigned a specific `Task` that con
     cd tailorAI
 
 
-2. **Install dependencies**
+2. **Install dependencies manually**
     
     ```bash
     pip install -r requirements.txt
     ```
+## OR
+
+2. **(Optional but faster) Use Setup Script for Faster Installation**
+
+    To automate installation and launch:
+
+    - **For Linux/Mac/Git Bash users:**
+      ```bash
+      bash scripts/setup_and_launch.sh
+      ```
+
+    - **For Windows users:**
+      - Double-click `scripts/setup_and_launch.bat`
+      - Or run manually:
+        ```bash
+        scripts\setup_and_launch.bat
+        ```
 
 
-3. **Install dependencies manually** (optional)
-
-    If you prefer manual setup:
-    
-    ```bash
-    pip install crewai==0.28.8
-    pip install crewai_tools==0.1.6
-    pip install langchain_community==0.0.29
-    pip install python-dotenv
-    pip install openai
-    pip install graphviz
-
-    ```
-
-4. **Set up your environment variables**
+3. **Set up your environment variables**
 
     - Create a `.env` file in the project root directory.
     - Get your OpenAI API KEY ($5) @ <https://platform.openai.com/settings/organization/billing/overview> and  SERPER API KEY (free credits available) @ <https://serper.dev/api-key>
