@@ -1,0 +1,20 @@
+### NECESSARY DEPENDENCIES TO INSTALL BEFORE RUNNING ###
+
+# OpenAI integration for AI models (via LangChain)
+langchain-openai
+openai
+
+# Crew AI library (for specific Crew AI tools and utilities)
+crewai==0.28.8
+
+# To load environment variables from a .env file (for managing configuration settings)
+python-dotenv
+
+# Tools for Jupyter notebooks (for interactive functionality and image rendering)
+crewai_tools==0.1.6
+
+# Graph creation and rendering (for creating visualizations and graphs in the notebook)
+graphviz
+
+# LangChain Community tools (for additional LangChain functionality and extensions)
+langchain_community==0.0.29
