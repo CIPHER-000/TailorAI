@@ -65,6 +65,7 @@ These agents collaborate as a **Crew**, each assigned a specific `Task` that con
 4. **Set up your environment variables**
 
     - Create a `.env` file in the project root directory.
+    - Get your OpenAI API KEY ($5) @ <https://platform.openai.com/settings/organization/billing/overview> and  SERPER API KEY (free credits available) @ <https://serper.dev/api-key>
     - Add your OpenAI and Serper API key:
     
     ```
