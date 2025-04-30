@@ -133,6 +133,6 @@ TailorAI also includes agent graph visualization if you're curious about the exe
 You can render agent relationships using tools like graphviz and pydot.
 
 
-## License**
+## 📜 License
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute this code with proper attribution.
